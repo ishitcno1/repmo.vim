@@ -8,7 +8,7 @@ Usage by example:
   Type "4k" and then ";" to repeat "4k".
 
   The following motions (and scroll commands) are mapped per default:
-      j,k, h,l, Ctrl-E,Ctrl-Y, zh,zl
+      j,k, h,l, w,b Ctrl-E,Ctrl-Y, zh,zl
 
 Check out:
 
@@ -29,7 +29,7 @@ Options, with defaults:
   :let repmo_revkey = ","
 
   " map some default motions (argument string for :RepmoMap):
-  :let g:repmo_mapmotions = "j|k h|l <C-E>|<C-Y> zh|zl"
+  :let g:repmo_mapmotions = "j|k h|l w|b <C-E>|<C-Y> zh|zl"
 
 Notes:
 
